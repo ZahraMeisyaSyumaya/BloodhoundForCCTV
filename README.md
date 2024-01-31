@@ -34,27 +34,23 @@ Bloodhound provides more effective analysis through log system filtering focused
     ```
 
 3. Download the YOLOv8 weights file (`TrainedModel.pt`) and place it in the `weights/` directory.
+   ## Usage
 
-## Usage
+    Run the application by executing the following command:
+    
+    ```bash
+    python Bloodhound.py
+    
+    This will launch the GUI, allowing you to:
+    
+    - Click the "Select Video File" button to choose a video file for analysis.
+    
+    - Click the "Select Output Directory" button to specify where the processed video should be saved.
+    
+    - Click the "Begin" button to start the object detection and tracking process.
+    
+    - Click the "Show Logs" button to open a new window displaying tracking logs. Here, you can monitor detection results and tracking information.
 
-Run the application by executing the following command:
-
-```bash
-python Bloodhound.py
-
-This will launch the GUI, allowing you to:
-
-- **Select Video File:**
-  - Click the "Select Video File" button to choose a video file for analysis.
-
-- **Select Output Directory:**
-  - Click the "Select Output Directory" button to specify where the processed video should be saved.
-
-- **Begin Detection and Tracking:**
-  - Click the "Begin" button to start the object detection and tracking process.
-
-- **Show Logs:**
-  - Click the "Show Logs" button to open a new window displaying tracking logs. Here, you can monitor detection results and tracking information.
 
 ## Configuration
 
