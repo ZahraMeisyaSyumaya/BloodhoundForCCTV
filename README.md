@@ -39,7 +39,6 @@ Bloodhound provides more effective analysis through log system filtering focused
 
 Run the application by executing the following command:
     
-    ```bash
     python Bloodhound.py
     
     This will launch the GUI, allowing you to:
