@@ -34,9 +34,10 @@ Bloodhound provides more effective analysis through log system filtering focused
     ```
 
 3. Download the YOLOv8 weights file (`TrainedModel.pt`) and place it in the `weights/` directory.
-   ## Usage
 
-    Run the application by executing the following command:
+## Usage
+
+Run the application by executing the following command:
     
     ```bash
     python Bloodhound.py
